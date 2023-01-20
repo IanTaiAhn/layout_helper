@@ -58,11 +58,12 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     });
   }
 
+// The selectd Index makes sense but is still kind of magic.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BottomNavigationBar Sample'),
+        title: const Text('Tentative App Design Test'),
         backgroundColor: const Color.fromARGB(255, 232, 157, 182),
       ),
       body: Center(
